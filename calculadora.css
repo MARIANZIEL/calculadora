@@ -1,0 +1,88 @@
+.calculadora {
+  height: 50%;
+  width: 15%;
+ display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+ align-self: center;
+}
+
+
+#pantalla {
+ 
+  height:20%;
+  width: 95%;
+  align-self: flex-start;
+  display: block;
+  
+  text-align: center;
+  font-size: 4vw;
+  color:red;
+
+}
+
+
+.calculadora > #signos{
+  height: 40%;
+  width: 20%;
+  align-self: flex-end;
+  justify-content: flex-end;
+  
+}
+
+#numero > div{
+  border:2px solid pink;
+  height: 40%;
+  width: 20%;
+  text-align: center;
+  color: white;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/564x/bd/98/df/bd98dfc5fedf622a0bcaf3ddeabee050.jpg");
+}
+
+.calculadora > #numero{
+  height:78%;
+  width: 55%;
+  align-self: flex-end;
+}
+#signos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background-image: url("http://www.familiafelizjoven.com/wp-content/uploads/2014/07/www.BancodeImagenesGratuitas.com-Flores-11.jpg");
+  color:white;
+
+}
+#signos > div{
+  height: 40%;
+  width: 30%;
+  border: 2px pink solid;
+  text-align: center;
+
+}
+#numero{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+   background-color:    #FFB6C1;
+
+}
+
+body{
+  height: 100%;
+  width:  100%;
+  display: flex;
+  justify-content: center;
+ 
+  background-image: url("http://www.terresds.com/wp-content/uploads/viaje-terres-tour-operador-japon001.jpg");
+}
+html{
+  height: 100%;
+  width:  100%;
+}
